@@ -1,0 +1,101 @@
+body {
+    background-color: #3F2AAE;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .menu a, h2, p {
+    color: #EEEEFF;
+}
+
+h1, h2, h3, section div {
+    text-align: center;
+}
+
+.menu {
+    background-color: #5438DC;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 1rem;
+}
+
+.menu a:hover {
+    background-color: #3F2AAE;
+}
+
+main {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h3 {
+    color: #0A0908;
+    text-decoration: underline dotted red;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border: 2px solid black;
+}
+
+#formu {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#mens {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    padding: .5rem;
+    margin: 0;
+}
+
+@media (max-width: 425px) {
+    nav a:last-of-type {
+        display: none;
+    }
+}
